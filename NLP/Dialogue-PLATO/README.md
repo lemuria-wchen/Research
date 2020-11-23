@@ -128,7 +128,7 @@ Model | BELU-1 | BELU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGH-L | CIDEr
 Baseline | 0.629 | 0.485 | 0.383 | 0.309 | 0.215 | 0.487 | 0.746
 CMU | 0.718 | 0.584 | 0.478 | 0.394 | 0.267 | 0.563 | 1.094
 Our Method | **0.784** | **0.637** | **0.525** | **0.435** | **0.286** | **0.596** | **1.209**
-Our Method | **0.816** | **0.682** | **0.576** | **0.479** | **0.301** | **0.622** | **1.312**
+ProphetNet | **0.816** | **0.682** | **0.576** | **0.479** | **0.301** | **0.622** | **1.312**
 
 Note: In the experiments on `DSTC7_AVSD`, the response selection of our method is strengthened with an extra ranking step, which ranks the candidates according to the automatic scores and selects the top one as the final answer.
 
