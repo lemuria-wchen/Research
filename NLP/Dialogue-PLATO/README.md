@@ -122,6 +122,7 @@ LIC | 0.405/0.320 | 0.019/0.113 | 0.042/0.154/0.064 | 1.95 | 1.34 | 1.09 | 1.29
 PLATO w/o Latent | 0.458/0.357 | 0.012/0.064 | 0.085/0.263/0.125 | 1.98 | 1.36 | 1.04 | 1.30
 PLATO | 0.406/0.315 | **0.021/0.121** | **0.142/0.461/0.211** | **1.99** | **1.51** | **1.70** | **1.50**
 ProphetNet | **0.466/0.391** | 0.013/0.075 | 0.083/0.278/0.124 |  |  |  | 
+ProphetNet with twitter | **0.468/0.392** | 0.013/0.075 | 0.086/0.281/0.129 |  |  |  | 
 
 ### DSTC7_AVSD
 Model | BELU-1 | BELU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGH-L | CIDEr
@@ -130,6 +131,7 @@ Baseline | 0.629 | 0.485 | 0.383 | 0.309 | 0.215 | 0.487 | 0.746
 CMU | 0.718 | 0.584 | 0.478 | 0.394 | 0.267 | 0.563 | 1.094
 PLATO | 0.784 | 0.637 | 0.525 | 0.435 | 0.286 | 0.596 | 1.209
 ProphetNet | **0.824** | **0.691** | **0.582** | **0.487** | **0.313** | **0.640** | **1.382**
+ProphetNet with twitter | **0.815** | **0.681** | **0.571** | **0.476** | **0.308** | **0.635** | **1.360**
 
 Note: In the experiments on `DSTC7_AVSD`, the response selection of our method is strengthened with an extra ranking step, which ranks the candidates according to the automatic scores and selects the top one as the final answer.
 
