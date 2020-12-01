@@ -112,6 +112,7 @@ iVAE_MI | 0.309/0.249 | 0.029/0.250 | 1.53 | 0.34 | 0.59 | 0.30
 PLATO w/o Latent | **0.405/0.322** | 0.046/0.246 | 1.91 | **1.58** | 1.03 | 1.44
 PLATO | 0.397/0.311 | **0.053/0.291** | **1.97** | 1.57 | **1.23** | **1.48**
 ProphetNet | **0.444/0.392** | 0.039/0.211 |  |  |  | 
+ProphetNet with twitter | **0.445/0.391** | 0.038/0.207 |  |  |  | 
 
 ### PersonaChat
 Model | BLEU-1/2 | Distinct-1/2 | Knowledge R/P/F1 | Fluency | Coherence | Informativeness | Overall
