@@ -124,13 +124,13 @@ Model | BLEU-1/2 | Distinct-1/2 | Knowledge R/P/F1 | Fluency | Coherence | Infor
 Seq2Seq | 0.448/0.353 | 0.004/0.016 | 0.004/0.016/0.006 | 1.82 | 0.37 | 0.85 | 0.34
 LIC | 0.405/0.320 | 0.019/0.113 | 0.042/0.154/0.064 | 1.95 | 1.34 | 1.09 | 1.29
 PLATO w/o Latent | 0.458/0.357 | 0.012/0.064 | 0.085/0.263/0.125 | 1.98 | 1.36 | 1.04 | 1.30
-PLATO | 0.406/0.315 | **0.021/0.121** | **0.142/0.461/0.211** | **1.99** | **1.51** | **1.70** | **1.50**
-ProphetNet | **0.466/0.391** | 0.013/0.075 | 0.083/0.278/0.124 |  |  |  | 
-ProphetNet with twitter | **0.468/0.392** | 0.013/0.075 | 0.086/0.281/0.129 |  |  |  | 
-ProphetNet reddit mask span | **0.461/0.389** | 0.011/0.069 | 0.094/0.325/0.144 |  |  |  | 
-ProphetNet reddit mask last 20% turn | **0.468/0.394** | 0.014/0.075 | 0.086/0.281/0.129 |  |  |  | 
-ProphetNet reddit mask random 20% turn | **0.460/0.384** | 0.013/0.075 | 0.086/0.281/0.129 |  |  |  | 
-ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.459/0.382** | 0.010/0.060 | 0.101/0.345/0.151 |  |  |  | 
+PLATO | 0.406/0.315 | 0.021/0.121 | 0.142/0.461/0.211 | **1.99** | **1.51** | **1.70** | **1.50**
+ProphetNet | 0.466/0.391 | 0.013/0.075 | 0.083/0.278/0.124 |  |  |  | 
+ProphetNet with twitter | 0.468/0.392 | 0.013/0.075 | 0.086/0.281/0.129 |  |  |  | 
+ProphetNet reddit mask span | 0.461/0.389 | 0.011/0.069 | 0.094/0.325/0.144 |  |  |  | 
+ProphetNet reddit mask last 20% turn | 0.468/0.394 | 0.014/0.076 | 0.085/0.282/0.131 |  |  |  | 
+ProphetNet reddit mask random 20% turn | 0.460/0.384 | 0.013/0.075 | 0.086/0.281/0.129 |  |  |  | 
+ProphetNet reddit mask random 20% turn (add turn level embedding) | 0.459/0.382 | 0.010/0.060 | 0.101/0.345/0.151 |  |  |  | 
 
 ### DSTC7_AVSD
 Model | BELU-1 | BELU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGH-L | CIDEr
