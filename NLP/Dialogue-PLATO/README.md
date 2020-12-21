@@ -116,7 +116,7 @@ ProphetNet with twitter | **0.445/0.391** | 0.038/0.207 |  |  |  |
 ProphetNet reddit mask span | **0.445/0.391** | 0.038/0.207 |  |  |  | 
 ProphetNet reddit mask last 20% turn | **0.445/0.391** | 0.038/0.207 |  |  |  | 
 ProphetNet reddit mask random 20% turn | **0.445/0.391** | 0.038/0.207 |  |  |  | 
-ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.445/0.391** | 0.038/0.207 |  |  |  | 
+ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.461/0.402** | 0.038/0.208 |  |  |  | 
 
 ### PersonaChat
 Model | BLEU-1/2 | Distinct-1/2 | Knowledge R/P/F1 | Fluency | Coherence | Informativeness | Overall
