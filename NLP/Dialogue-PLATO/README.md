@@ -145,9 +145,9 @@ PLATO | 0.784 | 0.637 | 0.525 | 0.435 | 0.286 | 0.596 | 1.209
 ProphetNet | 0.824 | 0.691 | 0.582 | 0.487 | 0.313 | 0.640 | 1.382
 ProphetNet with twitter | 0.815 | 0.681 | 0.571 | 0.476 | 0.308 | 0.635 | 1.360
 ProphetNet reddit mask span | 0.823 | 0.688 | 0.577 | 0.482 | 0.309 | 0.636 | 1.358
-ProphetNet reddit mask last 15% turn | 0.829 | 0.702 | 0.593 | 0.498 | 0.311 | 0.641 | 1.382
-ProphetNet reddit mask random 15% turn | 0.832 | 0.705 | 0.598 | 0.506 | 0.314 | 0.638 | 1.386
-ProphetNet reddit mask random 15% turn (add turn level embedding) | **0.833** | **0.705** | **0.598** | **0.506** | **0.315** | **0.640** | **1.386**
+ProphetNet reddit mask last 20% turn | 0.829 | 0.702 | 0.593 | 0.498 | 0.311 | 0.641 | 1.382
+ProphetNet reddit mask random 20% turn | 0.832 | 0.705 | 0.598 | 0.506 | 0.314 | 0.638 | 1.386
+ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.833** | **0.705** | **0.598** | **0.506** | **0.315** | **0.640** | **1.386**
 
 Note: In the experiments on `DSTC7_AVSD`, the response selection of our method is strengthened with an extra ranking step, which ranks the candidates according to the automatic scores and selects the top one as the final answer.
 
