@@ -117,8 +117,8 @@ ProphetNet reddit mask span | 0.461/0.402 | 0.038/0.208 |  |  |  |
 ProphetNet reddit mask last 20% turn | 0.460/0.401 | 0.038/0.207 |  |  |  | 
 ProphetNet reddit mask random 20% turn | **0.461/0.403** | 0.039/0.227 |  |  |  | 
 ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.461/0.402** | 0.041/0.230 |  |  |  | 
-ProphetNet reddit VAE | **0.423/0.411** | 0.049/0.278 |  |  |  | 
-
+seq2seq VAE (latent = 16, training...) | 0.424/0.346 | 0.046/0.283 |  |  |  | 
+seq2seq VAE (latent = 32, training...) | 0.410/0.324 | 0.056/0.298  |  |  | 
 
 ### PersonaChat
 Model | BLEU-1/2 | Distinct-1/2 | Knowledge R/P/F1 | Fluency | Coherence | Informativeness | Overall
@@ -134,8 +134,8 @@ ProphetNet reddit mask last 20% turn | **0.469/0.395** | 0.012/0.073 | 0.085/0.2
 ProphetNet reddit mask random 20% turn | 0.460/0.384 | 0.014/0.078 | 0.086/0.281/0.129 |  |  |  | 
 ProphetNet reddit mask random 20% turn (add turn level embedding) | 0.461/0.385 | 0.012/0.070 | 0.101/0.345/0.151 |  |  |  | 
 ProphetNet (drop knowledge) | 0.396/0.353 | 0.016/0.082 | 0.015/0.069/0.0244 |  |  |  | 
-seq2seq VAE (latent = 16, training...) kl+bow+mle+mlm | **0.434/0.365** | 0.016/0.097 |  |  |  | 
-seq2seq VAE (latent = 32, training...) kl+bow+mle+mlm | **0.419/0.331** | 0.020/0.109 |  |  |  | 
+seq2seq VAE (latent = 16, training...) | **0.434/0.365** | 0.016/0.097 |  |  |  | 
+seq2seq VAE (latent = 32, training...) | **0.419/0.331** | 0.020/0.109 |  |  |  | 
 
 ### DSTC7_AVSD
 Model | BELU-1 | BELU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGH-L | CIDEr
