@@ -117,8 +117,8 @@ ProphetNet reddit mask span | 0.461/0.402 | 0.038/0.208 |  |  |  |
 ProphetNet reddit mask last 20% turn | 0.460/0.401 | 0.038/0.207 |  |  |  | 
 ProphetNet reddit mask random 20% turn | **0.461/0.403** | 0.039/0.227 |  |  |  | 
 ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.461/0.402** | 0.041/0.230 |  |  |  | 
-seq2seq VAE (latent = 16, training...) | 0.424/0.346 | 0.046/0.283 |  |  |  | 
-seq2seq VAE (latent = 32, training...) | 0.410/0.324 | 0.056/0.298  |  |  | 
+seq2seq VAE (latent = 16, training...) | 0.424/0.346 | 0.045/0.263 |  |  |  | 
+seq2seq VAE (latent = 32, training...) | 0.389/0.324 | 0.056/0.298  |  |  | 
 
 ### PersonaChat
 Model | BLEU-1/2 | Distinct-1/2 | Knowledge R/P/F1 | Fluency | Coherence | Informativeness | Overall
