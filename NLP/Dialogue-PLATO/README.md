@@ -118,7 +118,8 @@ ProphetNet reddit mask last 20% turn | 0.460/0.401 | 0.038/0.207 |  |  |  |
 ProphetNet reddit mask random 20% turn | **0.461/0.403** | 0.039/0.227 |  |  |  | 
 ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.461/0.402** | 0.041/0.230 |  |  |  | 
 seq2seq VAE (latent = 16, training...) | 0.424/0.346 | 0.045/0.263 |  |  |  | 
-seq2seq VAE (latent = 32, training...) | 0.389/0.324 | 0.056/0.298  |  |  | 
+seq2seq VAE (latent = 32, training...) | **0.389/0.324** | **0.056/0.298**  |  |  | 
+seq2seq RL (may have bug) | 0.434/0.381 | 0.039/0.218 |  |  | 
 
 ### PersonaChat
 Model | BLEU-1/2 | Distinct-1/2 | Knowledge R/P/F1 | Fluency | Coherence | Informativeness | Overall
@@ -150,7 +151,6 @@ ProphetNet reddit mask last 20% turn | 0.829 | 0.702 | 0.593 | 0.498 | 0.311 | 0
 ProphetNet reddit mask random 20% turn | 0.832 | 0.705 | 0.598 | 0.506 | 0.314 | 0.638 | 1.386
 ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.833** | **0.705** | **0.598** | **0.506** | **0.315** | **0.640** | **1.386**
 encoder with ape and rpe (0.2 epoch) | **0.824** | **0.701** | **0.582** | **0.499** | **0.310** | **0.638** | **1.384**
-
 
 Note: In the experiments on `DSTC7_AVSD`, the response selection of our method is strengthened with an extra ranking step, which ranks the candidates according to the automatic scores and selects the top one as the final answer.
 
