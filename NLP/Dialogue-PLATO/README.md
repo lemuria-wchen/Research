@@ -120,6 +120,10 @@ ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.461/0.40
 seq2seq VAE (latent = 16, training...) | 0.424/0.346 | 0.045/0.263 |  |  |  | 
 seq2seq VAE (latent = 32, training...) | **0.389/0.324** | **0.056/0.298**  |  |  | 
 seq2seq RL (may have bug) | 0.434/0.381 | 0.039/0.218 |  |  | 
+seq2seq with RPE (new) | 0.461/0.407 | 0.041/0.222 |  |  | 
+seq2seq with RPE sampling top 5 (new) | 0.421/0.370 | 0.040/0.290 |  |  | 
+seq2seq with RPE sampling top 20 (new) | 0.413/0.357 | 0.047/0.328 |  |  | 
+seq2seq with RPE sampling top 100 (new) | 0.413/0.355 | 0.054/0.358 |  |  | 
 
 ### PersonaChat
 Model | BLEU-1/2 | Distinct-1/2 | Knowledge R/P/F1 | Fluency | Coherence | Informativeness | Overall
