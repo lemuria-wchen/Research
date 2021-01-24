@@ -141,6 +141,9 @@ ProphetNet reddit mask random 20% turn (add turn level embedding) | 0.461/0.385 
 ProphetNet (drop knowledge) | 0.396/0.353 | 0.016/0.082 | 0.015/0.069/0.0244 |  |  |  | 
 seq2seq VAE (latent = 16, training...) | 0.434/0.365 | 0.016/0.097 | 0.129/0.375/0.181 |  |  | 
 seq2seq VAE (latent = 32, training...) | 0.419/0.331 | 0.020/0.109 | 0.144/0.452/0.199 |  |  | 
+seq2seq with RPE (new) | 0.470/0.395 | 0.013/0.069 | 0.087/0.301/0.131 |  |  | 
+seq2seq with RPE sampling top 20 (new) | 0.414/0.351 | 0.028/0.236 | 0.062/0.177/0.088 |  |  | 
+seq2seq with RPE sampling top 100 (new) | 0.409/0.347 | 0.032/0.261 | 0.059/0.165/0.084 |  |  | 
 
 ### DSTC7_AVSD
 Model | BELU-1 | BELU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGH-L | CIDEr
