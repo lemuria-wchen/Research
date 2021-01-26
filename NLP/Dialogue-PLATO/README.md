@@ -159,6 +159,38 @@ ProphetNet reddit mask random 20% turn | 0.832 | 0.705 | 0.598 | 0.506 | 0.314 |
 ProphetNet reddit mask random 20% turn (add turn level embedding) | **0.833** | **0.705** | **0.598** | **0.506** | **0.315** | **0.640** | **1.386**
 encoder with ape and rpe (training...) | **0.824** | **0.701** | **0.582** | **0.499** | **0.310** | **0.638** | **1.384**
 
+
+## Result
+
+### DailyDialog
+Model | BLEU-1/2 | Distinct-1/2 | Fluency | Coherence | Informativeness | Overall
+------|------|------|------|------|------|-------
+Seq2Seq | 0.336/0.268 | 0.030/0.128 | 1.85 | 0.37 | 0.44 | 0.33
+iVAE_MI | 0.309/0.249 | 0.029/0.250 | 1.53 | 0.34 | 0.59 | 0.30
+PLATO w/o Latent | 0.405/0.322 | 0.046/0.246 | 1.91 | **1.58** | 1.03 | 1.44
+PLATO | 0.397/0.311 | **0.053/0.291** | **1.97** | 1.57 | **1.23** | **1.48**
+ProphetNet | 0.444/0.392 | 0.039/0.211 |  |  |  | 
+seq2seq RL | 0.434/0.381 | 0.039/0.218 |  |  | 
+seq2seq with RPE (new) | 0.461/0.407 | 0.041/0.222 |  |  | 
+seq2seq with RPE sampling top 5 (new) | 0.421/0.370 | 0.040/0.290 |  |  | 
+seq2seq with RPE sampling top 20 (new) | 0.413/0.357 | 0.047/0.328 |  |  | 
+seq2seq with RPE sampling top 100 (new) | 0.413/0.355 | 0.054/0.358 |  |  | 
+seq2seq VAE (latent = 32) | **0.474/0.427** | **0.047/0.281**  |  |  | 
+
+### PersonaChat
+Model | BLEU-1/2 | Distinct-1/2 | Knowledge R/P/F1 | Fluency | Coherence | Informativeness | Overall
+------|------|------|------|------|------|-------|-------
+Seq2Seq | 0.448/0.353 | 0.004/0.016 | 0.004/0.016/0.006 | 1.82 | 0.37 | 0.85 | 0.34
+LIC | 0.405/0.320 | 0.019/0.113 | 0.042/0.154/0.064 | 1.95 | 1.34 | 1.09 | 1.29
+PLATO w/o Latent | 0.458/0.357 | 0.012/0.064 | 0.085/0.263/0.125 | 1.98 | 1.36 | 1.04 | 1.30
+PLATO | 0.406/0.315 | **0.021/0.121** | **0.142/0.461/0.211** | **1.99** | **1.51** | **1.70** | **1.50**
+ProphetNet | 0.466/0.391 | 0.013/0.075 | 0.083/0.278/0.124 |  |  |  | 
+seq2seq with RPE (new) | 0.470/0.395 | 0.013/0.069 | 0.087/0.301/0.131 |  |  | 
+seq2seq with RPE sampling top 20 (new) | 0.414/0.351 | 0.028/0.236 | 0.062/0.177/0.088 |  |  | 
+seq2seq with RPE sampling top 100 (new) | 0.409/0.347 | 0.032/0.261 | 0.059/0.165/0.084 |  |  | 
+seq2seq VAE (latent = 32) | 0.469/0.394 | 0.016/0.097 | 0.058/0.164/0.089 |  |  | 
+
+
 Note: In the experiments on `DSTC7_AVSD`, the response selection of our method is strengthened with an extra ranking step, which ranks the candidates according to the automatic scores and selects the top one as the final answer.
 
 ## Citation
